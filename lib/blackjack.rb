@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  rand(1..11)
+  card = rand(1..11)
 end
 
 def display_card_total(card_total)
@@ -18,7 +18,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.chomp
+  user_input = gets.chomp
 end
 
 def end_game(card_total)
