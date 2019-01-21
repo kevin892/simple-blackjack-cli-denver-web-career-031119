@@ -36,10 +36,10 @@ end
 
 def hit?(number)
   prompt_user
-  get_user_input
   if get_user_input == "h"
-    deal_card
+    card_total+= deal_card
   end
+  card_total
   # code hit? here
 end
 
